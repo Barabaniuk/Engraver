@@ -121,7 +121,7 @@ Uses a modified set of G-codes:
 Receive commands via the serial port from the control program manually (in maintenance mode). 
 It is possible to provide work with a specific instance of the control program to prevent unlicensed use
 
-## Compnents
+## Components
 
 * Ramps 1.4 board
 * Arduino MEGA controller 
