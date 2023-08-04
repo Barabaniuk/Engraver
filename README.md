@@ -65,7 +65,7 @@ Main window include:
  * Load image for printing
   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
 * Prepare image for printing – convert original into black-white pixel set 
-   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
+   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Engraver.Control_application_image_coversion.jpg)
   - Set physical pixel size
   - Set pattern size for each pixel. Each pixel of original image converting into pattern of black and white pixels. Depends on pattern size a different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
   - Different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
