@@ -58,6 +58,10 @@ Main window include:
   ![Engraver settings](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_printer_settings.jpg)
   - Size of printing area
   - Steps per rotation value (independently for each axis)
+  - Default boudaries of enfraving area
+  - Refresh rate for sending feedback to the control application
+  - Manual power off on the motor windings (for manual movement of the carriage)
+    
  * Load image for printing
   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
 * Prepare image for printing – convert original into black-white pixel set 
