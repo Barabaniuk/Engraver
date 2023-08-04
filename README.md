@@ -44,8 +44,7 @@ Main window include:
 ## Main functions of Engraver control application:
 * Establishing a connection with the printer through any of the available serial ports 
 * Manual control of engraver
-  
-  ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application.Manual_control.jpg)
+  ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
   - Stop current movement
   - Move by fixed distance in any direction (customizable)
   - Start movement in any direction
@@ -54,13 +53,13 @@ Main window include:
   - Move to initial position (X, Y or both)
   - Send manual command to controller and receive answer
 * Change parameters of engraver
-  
   ![Engraver settings](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_printer_settings.jpg)
   - Size of printing area
   - Steps per rotation value (independently for each axis)
  * Load image for printing
   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
 * Prepare image for printing – convert original into black-white pixel set 
+   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
   - Set physical pixel size
   - Set pattern size for each pixel. Each pixel of original image converting into pattern of black and white pixels. Depends on pattern size a different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
   - Different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
@@ -145,9 +144,3 @@ It is possible to provide work with a specific instance of the control program t
 * Redesign for laser engraving
 
 ## Photos
-
-
-
-
-
-  
