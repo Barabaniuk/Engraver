@@ -44,7 +44,7 @@ Main window include:
 ## Main functions of Engraver control application:
 * Establishing a connection with the printer through any of the available serial ports 
 * Manual control of engraver
- 
+  ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
   - Stop current movement
   - Move by fixed distance in any direction (customizable)
   - Start movement in any direction
@@ -53,23 +53,26 @@ Main window include:
   - Move to initial position (X, Y or both)
   - Send manual command to controller and receive answer
 * Change parameters of engraver
+  ![Engraver settings](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_printer_settings.jpg)
   - Size of printing area
   - Steps per rotation value (independently for each axis)
- 
-* Load image for printing
-* Prepare image for printing – convert original into black-white pixel set with corresponding  
+ * Load image for printing
+  ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
+* Prepare image for printing – convert original into black-white pixel set 
+   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_image_upload.jpg)
   - Set physical pixel size
   - Set pattern size for each pixel. Each pixel of original image converting into pattern of black and white pixels. Depends on pattern size a different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
   - Different number of shades of gray can be printed (4 shades for a 2x2 pattern, 9 shades for a 3x3 pattern, 16 shades for a 4x4 pattern)
-To avoid clearly visible repeating patterns for each hue, several options are used, selected at random during the preparation.
-     
+    To avoid clearly visible repeating patterns for each hue, several options are used, selected at random during the preparation.
+     ![Examples of patterns for different pixel sizes](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control.Pixel_patterns2x2_3x3_4x4.jpg)
   - Resize image to fit with required print area according to pixel size and target physical size
   - Create margins and set the starting point of the image (to prevent overprinting)
   - Rotate or mirror image (if required)
   - Change brightness of image (make it brighter or darker with corresponding changing of engraving actions.)
   - After finalization of all parameters test movement of carriage can be activated. In this mode carriage is moving along the outer border of the printing image but engraving cuter not toch stone surface. 
 This allows to check that all settings for the image size and margins are correct and during real printing the carriage will not go beyond the boundaries of the stone on which the engraving is performed. Very important for printing on stones of complex (not rectangular) shape 
-* Generate printing program. 
+* Generate printing program.
+  ![Generating of printing program](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_generating_processing_program.jpg)
   - Based on black-and-white image (after converting) generating set of G-codes of carriage movement and cutter strikes
   - Carriage movement optimized to avoid wasting time moving over dark areas where no hit is needed
   - Generation time depends on image size and pattern settings. 
@@ -77,20 +80,20 @@ For real images сcomparable to the area of printing (600x1000mm) and good quali
 ~500-1000 actions per second generating on typical PC, corresponds to 3-4minutes of generation
 Result program with .g extension and size 15-25 Mb (depending on the number of light tones in the image and, accordingly, the number of actions)
   - After program generating it can be saved in text format (for future use)
-  - 
+  ![Example of generated G-code program](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_GCode_preview.jpg)
  
 * Printing preview and process
+   ![Printing preview](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_printing.jpg)
   - This mode activating after generation of program or opening previously saved program 
   - Any action can be manually activated. In this mode previous and next position of carriage can be shown on preview of printing to understood trajectory of carriage. Checking doesn’t required connection to printer
   - Normally printing start from first command of printing command with carriage in “home” position
   - If required, printing can be start from any command number (if printing continuing after pause)/ In this case you can choose:
-	current position of carriage corresponds to coordinate in program 
-	carriage in “home” position and must be moved in target position before continuing.
+* current position of carriage corresponds to coordinate in program 
+* carriage in “home” position and must be moved in target position before continuing.
   - Printing control panel 
- 
   - Buttons for pause and continue current printing.
   - Selection of action number (for manual start from any position of program)
-  - Current command number, quantity of programs loaded in printer controller and queue size  
+  - Current command number, quantity of programs loaded in printer controller and queue size 
 
 ## Engraver firmware
 Based on modified Marvin firmware for 3D printers. 
