@@ -44,6 +44,7 @@ Main window include:
 ## Main functions of Engraver control application:
 * Establishing a connection with the printer through any of the available serial ports 
 * Manual control of engraver
+  
   ![Load image for engraving into control application](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application.Manual_control.jpg)
   - Stop current movement
   - Move by fixed distance in any direction (customizable)
@@ -53,6 +54,7 @@ Main window include:
   - Move to initial position (X, Y or both)
   - Send manual command to controller and receive answer
 * Change parameters of engraver
+  
   ![Engraver settings](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_printer_settings.jpg)
   - Size of printing area
   - Steps per rotation value (independently for each axis)
