@@ -155,6 +155,10 @@ It is possible to provide work with a specific instance of the control program t
 
 ![Engraver carriage with engraving cutter](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Carriage_with_engraving_cutter.jpg)
 
+![Engraver main frame](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Main_frame.jpg)
+
+![Engraver main components](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Main_components.jpg)
+
 ![Engraving main controller](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Main_conroller.jpg)
 
 ![Example of different settings for typical pattern](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Example_of_different_printing_settings.jpg)
