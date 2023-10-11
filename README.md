@@ -151,10 +151,9 @@ It is possible to provide work with a specific instance of the control program t
 * Redesign for laser engraving
 
 ## Photos
+![Engraving in progress](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Print_in_progress.jpg)
 
 ![Engraver carriage with engraving cutter](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Carriage_with_engraving_cutter.jpg)
-  
-![Engraving in progress](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Print_in_progress.jpg)
 
 ![Engraving main controller](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Main_conroller.jpg)
 
