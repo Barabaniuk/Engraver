@@ -105,29 +105,29 @@ Result program with .g extension and size 15-25 Mb (depending on the number of l
 ## Engraver firmware
 Based on modified Marvin firmware for 3D printers. 
 Uses a modified set of G-codes:
-* G0 X1 Y-1  - Start moving the carriage in the specified direction until a stop command (M0) is received or the limit switch is triggered
-* G1 #0000 X000.0 Y000.0  - Move the carriage along the X and Y coordinates at the specified distance, mm
-* G5 #0000 P000 C000  - Make cutter C strikes duration P ms
-* G26 X0000 Y0000  - Set the specified coordinates for the current position (without moving)
-* G27 X Y  - Set current position as start for each coordinate
-* G28 X Y  - Start moving to the starting position for each coordinate (before the limit switch is triggered)
-* G92 #0000 X000.0 Y000.0  - Move the carriage to the specified position (taking into account the current position), mm  
-* M0  - Stop
-* M1  - Stop processing to get the next sequence of commands
-* M2  - Start printing commands from the queue
-* M3  - Display the list of commands in the queue
-* M17  - Power on steppers
-* M18  - Power off steppers
-* M92 X000 Y000  - Set the number of steps per rotation
-* M114  - Display the current position of the carriage and limit switches
-* M201 X000 Y000  - Set the acceleration of steppers for each coordinate, step/sec2
-* M203 X000 Y000  - Set the speed of steppers for each coordinate, step / sec
-* M500  - Saving the current position and settings in the ROM (EEPROM) of the controller
-* M501  - Loading the current position and settings from the ROM (EEPROM) of the controller
-* M502  - Reset parameters to standard (factory)
-* M503  - Output current parameters of engraver
-* M666 #00000  - Unlocking system operation using a unique ID from the control program
-* M667  - Blocking the system
+* `G0 X1 Y-1`  - Start moving the carriage in the specified direction until a stop command (`M0`) is received or the limit switch is triggered
+* `G1 #0000 X000.0 Y000.0`  - Move the carriage along the X and Y coordinates at the specified distance, mm
+* `G5 #0000 P000 C000`  - Make cutter C strikes duration P ms
+* `G26 X0000 Y0000`  - Set the specified coordinates for the current position (without moving)
+* `G27 X Y`  - Set current position as start for each coordinate
+* `G28 X Y`  - Start moving to the starting position for each coordinate (before the limit switch is triggered)
+* `G92 #0000 X000.0 Y000.0`  - Move the carriage to the specified position (taking into account the current position), mm  
+* `M0`  - Stop
+* `M1`  - Stop processing to get the next sequence of commands
+* `M2`  - Start printing commands from the queue
+* `M3`  - Display the list of commands in the queue
+* `M17`  - Power on steppers
+* `M18`  - Power off steppers
+* `M92 X000 Y000`  - Set the number of steps per rotation
+* `M114`  - Display the current position of the carriage and limit switches
+* `M201 X000 Y000`  - Set the acceleration of steppers for each coordinate, step/sec2
+* `M203 X000 Y000`  - Set the speed of steppers for each coordinate, step / sec
+* `M500`  - Saving the current position and settings in the ROM (EEPROM) of the controller
+* `M501`  - Loading the current position and settings from the ROM (EEPROM) of the controller
+* `M502`  - Reset parameters to standard (factory)
+* `M503`  - Output current parameters of engraver
+* `M666 #00000`  - Unlocking system operation using a unique ID from the control program
+* `M667`  - Blocking the system
 Receive commands via the serial port from the control program manually (in maintenance mode). 
 It is possible to provide work with a specific instance of the control program to prevent unlicensed use
 
