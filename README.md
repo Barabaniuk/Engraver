@@ -151,3 +151,23 @@ It is possible to provide work with a specific instance of the control program t
 * Redesign for laser engraving
 
 ## Photos
+
+![Engraver carriage with engraving cutter](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Carriage_with_engraving_cutter.jpg)
+  
+![Engraving in progress](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Print_in_progress.jpg)
+
+![Engraving main controller](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Main_conroller.jpg)
+
+![Example of different settings for typical pattern](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Example_of_different_printing_settings.jpg)
+
+![Example of draft engraving](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Draft_print_example.jpg)
+
+![Example of engraving](https://github.com/Brabn/Engraver/blob/main/Photo/Engraver.Printer_example.jpg)
+
+https://github.com/Brabn/Engraver/assets/140490234/5e11ea8b-c2a9-42ed-a24e-942eeb86d7fb
+
+
+
+
+
+
