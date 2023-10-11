@@ -1,11 +1,15 @@
 # Engraver
 Engraver machine designed for stone engraving using solenoid with engraving cutter
+
 ![Genral view of engraver](https://github.com/Barabaniuk/Engraver/blob/main/Photo/Engraver.General_view.jpg)
+
 Main hardware for engraver, firmware for the controller and the desktop print management program
 Moving the carriage along the X and Y axes using stepper motors.
 Adjustment of the impact force using the voltage on the solenoid and solenoid impulse parameters
+
 The original image is converted to grayscale, after which each pixel is engraved on the stone with cutter strokes. The cutter leaves a light trace on the initially dark surface of the stone. The more blows are made to one point, the lighter the trace left.	 
 The carriage moves along the surface of the stone with the help of stepper motors and screw guides
+
 The transmission of commands to the controller is carried out from the PC via a cable. For this, an Engraver.Control application is used. Software allows you to create a print program, send it to the controller and manage the printer (both in manual mode and automatic printing)
 
 ## Main system parameters:
