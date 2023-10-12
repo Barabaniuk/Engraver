@@ -25,11 +25,11 @@ The transmission of commands to the controller is carried out from the PC via a 
 * Material for engraving – any type of stone, glass, polished metal
 
 ## Engraver Control application 
-[Engraver control application](https://github.com/Barabaniuk/Engraver/blob/main/Control_application/EngraveControl.1.51.exe)
+[Engraver control application](https://github.com/Brabn/Engraver/blob/main/Control_application/EngraveControl.1.51.exe)
 
 Desktop application for work of engraving machine. Developed on C++ using .Net framework. 
 Can work on any PC with operating system supporting .NET framework (windows 7,10,11)
-![Engraver Control application main window](https://github.com/Barabaniuk/Engraver/blob/main/Control_application/Engraver.Control_application_main_window.jpg)
+![Engraver Control application main window](https://github.com/Brabn/Engraver/blob/main/Control_application/Engraver.Control_application_main_window.jpg)
 
 Main window include:
 * Panel for manual control of engraver
